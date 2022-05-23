@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcualtor</title>
+    <style>
+        #Rvt {
+            display: inline-block;
+            width: 38px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            border: 1px solid #ccc;
+            background-color: gainsboro;
+            color: #fff;
+            font-size: 14px;
+            margin: 10px 10px 0 0;
+            cursor: pointer;
+        }
+
+        
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+    <body>
+
+        <div class="calculator_wrap" id="calculator">
+            <div class="show_num">
+                <div class="num_save" id="numSave"></div>
+                <div class="num_cur" id="numCur">0</div>
+                <div class="show_m" id="showM">M</div>
+            </div>
+
+            <div class="btn_wrap" id="btnWrap">                
+                <div class="btn" data-key="MC">MC</div>
+                <div class="btn" data-key="MR">MR</div>
+                <div class="btn" data-key="MS">MS</div>
+                <div class="btn" data-key="MA">M+</div>
+                <div class="btn" data-key="ML">M-</div>
+                 <button id="Rvt" data-key="Rvt">Rvt</button>              
+                <div class="btn" data-key="BACK">←</div>
+                <div class="btn" data-key="CE">C</div>
+                <div class="btn" data-key="Clear">AC</div>
+                <div class="btn" data-key="Negate">±</div>
+                <div class="btn" data-key="(">(</div>
+                <div class="btn" data-key=")">)</div>
+                <div class="btn" data-key="Num" data-value="7">7</div>
+                <div class="btn" data-key="Num" data-value="8">8</div>
+                <div class="btn" data-key="Num" data-value="9">9</div>
+                <div class="btn" data-key="Base" data-value="/">/</div>
+                <div class="btn" data-key="Num" data-value="4">4</div>
+                <div class="btn" data-key="Num" data-value="5">5</div>
+                <div class="btn" data-key="Num" data-value="6">6</div>
+                <div class="btn" data-key="Base" data-value="*">*</div>
+                <div class="btn" data-key="Num" data-value="1">1</div>
+                <div class="btn" data-key="Num" data-value="2">2</div>
+                <div class="btn" data-key="Num" data-value="3">3</div>
+                <div class="btn" data-key="Base" data-value="-">-</div>
+                <div class="btn equal" data-key="Equal">=</div>
+                <div class="btn zero" data-key="Num" data-value="0">0</div>
+                <div class="btn" data-key="Point">.</div>
+                <div class="btn" data-key="Base" data-value="+">+</div>
+            </div>
+        </div>
+    </body>
+</html>
