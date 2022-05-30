@@ -1,0 +1,77 @@
+/* *, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+} */
+/**/ 
+/*body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+} */
+
+  .calculator_wrap{width:330px;height:310px;padding:10px;margin:30px auto;border:1px solid #000000;background:#fff;}
+  .calculator_wrap .show_num{position:relative;padding:0 8px;height:60px;background:#ccc;text-align:right;}
+  .calculator_wrap .show_m{position: absolute;left:10px;bottom:3px;display:none;}
+  .calculator_wrap .num_save{height:26px;line-height:26px;font-size:12px;white-space:nowrap;}
+  .calculator_wrap .num_cur{font-size:28px;height:34px;line-height:34px;}
+  
+  .calculator_wrap .btn_wrap{font-size:0px;}
+
+ /*   .calculator_wrap .btn_wrap button {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border: 1px solid #ccc;
+        background: #ccc;
+        color: #fff;
+        font-size: 14px;
+        margin: 10px 10px 0 0;
+        cursor: pointer;
+    }*/
+
+        .calculator_wrap .btn_wrap button:hover {
+            background: #333;
+        }
+
+        .calculator_wrap .btn_wrap button:nth-child(5n) {
+            margin-right: 0px;
+        }
+
+ 
+
+    .calculator_wrap .btn{display:inline-block;width:38px;height:38px;line-height:38px;text-align:center;border:1px solid #000000;background:#ccc;color: #000000;font-size:14px;margin:0 0 10px 10px;cursor:pointer;}
+  .calculator_wrap .btn:hover{background:#333;}
+  .calculator_wrap .btn:nth-child(5n){margin-right:0px;}
+  .calculator_wrap .equal{position:absolute;height:88px;line-height:88px;}
+  /*.calculator_wrap .zero{width:90px;}*/
+    .calculator_wrap .memory {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border: 1px solid #000000;
+        background: #ccc;
+        color: #000000;
+        font-size: 14px;
+        margin: 0px 38px 0 0;
+        cursor: pointer;
+    }
+
+    .calculator_wrap .ce {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border: 1px solid #000000;
+        background: #ccc;
+        color: #000000;
+        font-size: 14px;
+        margin: 0 0 0 60px;
+        cursor: pointer;
+    }
+

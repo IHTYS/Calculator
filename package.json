@@ -1,0 +1,19 @@
+{
+  "name": "calculator-main",
+  "version": "1.0.0",
+  "description": "Calculator",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "27.5.1",
+    "jest-environment-jsdom": "27.5.1"
+  },
+  "dependencies": {}
+}
